@@ -1,0 +1,431 @@
+09-06 18:50:31.404 21312 21312 W main    : type=1400 audit(0.0:2555): avc: denied { read } for name="u:object_r:vendor_memfusion_size_prop:s0" dev="tmpfs" ino=186 scontext=u:r:untrusted_app:s0:c246,c256,c512,c768 tcontext=u:object_r:vendor_memfusion_size_prop:s0 tclass=file permissive=0 app=com.wstxda.viper4android
+09-06 18:50:31.404 21312 21312 W main    : type=1400 audit(0.0:2556): avc: denied { read } for name="u:object_r:vendor_memfusion_state_prop:s0" dev="tmpfs" ino=187 scontext=u:r:untrusted_app:s0:c246,c256,c512,c768 tcontext=u:object_r:vendor_memfusion_state_prop:s0 tclass=file permissive=0 app=com.wstxda.viper4android
+09-06 18:50:31.404 21312 21312 W main    : type=1400 audit(0.0:2557): avc: denied { read } for name="u:object_r:vendor_memfusion_tranlog_prop:s0" dev="tmpfs" ino=189 scontext=u:r:untrusted_app:s0:c246,c256,c512,c768 tcontext=u:object_r:vendor_memfusion_tranlog_prop:s0 tclass=file permissive=0 app=com.wstxda.viper4android
+09-06 18:50:31.404 21312 21312 W main    : type=1400 audit(0.0:2558): avc: denied { read } for name="u:object_r:vendor_memfusion_ui_enable_prop:s0" dev="tmpfs" ino=190 scontext=u:r:untrusted_app:s0:c246,c256,c512,c768 tcontext=u:object_r:vendor_memfusion_ui_enable_prop:s0 tclass=file permissive=0 app=com.wstxda.viper4android
+09-06 18:50:31.412 21312 21312 I a.viper4android: Using CollectorTypeCC GC.
+09-06 18:50:31.415 21312 21312 E a.viper4android: Not starting debugger since process cannot load the jdwp agent.
+09-06 18:50:31.422 21312 21312 D nativeloader: Load libframework-connectivity-tiramisu-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity-t.jar: ok
+09-06 18:50:31.429 21312 21312 D CompatibilityChangeReporter: Compat change id reported: 171979766; UID 10246; state: ENABLED
+--------- beginning of system
+09-06 18:50:31.431 21312 21312 D TranClassInfo: instance successfully. com.transsion.hubcore.graphics.TranGraphicImpl@536c056 from com.transsion.hubcore.graphics.ITranGraphic
+09-06 18:50:31.431 21312 21312 D os.SingleLiceFactory: instance successfully. com.transsion.typeface.v1.TypefaceLice@35da70 from android.graphics.IGraphicLice
+09-06 18:50:31.431 21312 21312 D os.LiceInfo: instance successfully. com.transsion.graphics.GraphicLice@f6e48d7 from android.graphics.IGraphicLice
+09-06 18:50:31.442 21312 21312 D nativeloader: Configuring clns-4 for other apk /data/app/~~Tw2x3KzchwZGDFTHlM0MLg==/com.wstxda.viper4android-OY5mknOg_MPLIxBEwdVu5A==/base.apk. target_sdk_version=34, uses_libraries=, library_path=/data/app/~~Tw2x3KzchwZGDFTHlM0MLg==/com.wstxda.viper4android-OY5mknOg_MPLIxBEwdVu5A==/lib/arm64:/data/app/~~Tw2x3KzchwZGDFTHlM0MLg==/com.wstxda.viper4android-OY5mknOg_MPLIxBEwdVu5A==/base.apk!/lib/arm64-v8a, permitted_path=/data:/mnt/expand:/data/user/0/com.wstxda.viper4android
+09-06 18:50:31.448 21312 21312 D nativeloader: Load libframework-connectivity-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity.jar: ok
+09-06 18:50:31.450 21312 21312 V GraphicsEnvironment: ANGLE Developer option for 'com.wstxda.viper4android' set to: 'default'
+09-06 18:50:31.450 21312 21312 V GraphicsEnvironment: ANGLE GameManagerService for com.wstxda.viper4android: false
+09-06 18:50:31.450 21312 21312 V GraphicsEnvironment: Neither updatable production driver nor prerelease driver is supported.
+09-06 18:50:31.452 21312 21312 I LoadedApk: No resource references to update in package com.transsion.theme.icon
+09-06 18:50:31.452 21312 21312 D NetworkSecurityConfig: No Network Security Config specified, using platform default
+09-06 18:50:31.453 21312 21312 D NetworkSecurityConfig: No Network Security Config specified, using platform default
+09-06 18:50:31.454 21312 21312 D HiddenApi: unseal: success
+09-06 18:50:31.454 21312 21312 D CompatibilityChangeReporter: Compat change id reported: 183155436; UID 10246; state: ENABLED
+09-06 18:50:31.456 21312 21312 D os.SingleLiceFactory: using android.app.IActivityThreadLice$DefaultImpl@ef5842e instead of com.transsion.activityembedding.ActivityEmbeddingLiceFactory  from android.app.IActivityThreadLice
+09-06 18:50:31.459 21312 21312 I FirebaseApp: Device unlocked: initializing all Firebase APIs for app [DEFAULT]
+09-06 18:50:31.461 21312 21312 I FirebaseCrashlytics: Initializing Firebase Crashlytics 18.3.2 for com.wstxda.viper4android
+09-06 18:50:31.479 21312 21312 I FirebaseInitProvider: FirebaseApp initialization successful
+09-06 18:50:31.482 21312 21333 W a.viper4android: ClassLoaderContext classpath size mismatch. expected=1, found=0 (DLC[];PCL[base.apk*4125941778]{PCL[/system/framework/org.apache.http.legacy.jar*2290010995]#PCL[/system/framework/com.android.media.remotedisplay.jar*3886290638]#PCL[/system/framework/com.android.location.provider.jar*3868789109]#PCL[/system/framework/org.apache.http.legacy.jar*2290010995]} | DLC[];PCL[])
+09-06 18:50:31.483 21312 21343 D TranClassInfo: instance successfully. com.transsion.hubcore.database.sqlite.TranSQLiteDatabaseImpl@5d3acc5 from com.transsion.hubcore.database.sqlite.ITranSQLiteDatabase
+09-06 18:50:31.484 21312 21333 I DynamiteModule: Considering local module com.google.android.gms.measurement.dynamite:86 and remote module com.google.android.gms.measurement.dynamite:158
+09-06 18:50:31.484 21312 21333 I DynamiteModule: Selected remote version of com.google.android.gms.measurement.dynamite, version >= 158
+09-06 18:50:31.484 21312 21333 V DynamiteModule: Dynamite loader version >= 2, using loadModule2NoCrashUtils
+09-06 18:50:31.487 21312 21312 W ContextImpl: Failed to ensure /dev/null/Android/data/com.wstxda.viper4android/files/DDC: java.lang.SecurityException: Invalid mkdirs path: /dev/null/Android/data/com.wstxda.viper4android/files/DDC is not a known app path.
+09-06 18:50:31.490 21312 21312 W ContextImpl: Failed to ensure /dev/null/Android/data/com.wstxda.viper4android/files/Kernel: java.lang.SecurityException: Invalid mkdirs path: /dev/null/Android/data/com.wstxda.viper4android/files/Kernel is not a known app path.
+09-06 18:50:31.491 21312 21333 W System  : ClassLoader referenced unknown path:
+09-06 18:50:31.492 21312 21333 D nativeloader: Configuring clns-5 for other apk . target_sdk_version=36, uses_libraries=, library_path=/data/app/~~_XZ75qe3hGb59RC-3zZBng==/com.google.android.gms-ZWl97oPoiqxOkcLHMsxg5Q==/lib/arm64:/data/app/~~_XZ75qe3hGb59RC-3zZBng==/com.google.android.gms-ZWl97oPoiqxOkcLHMsxg5Q==/base.apk!/lib/arm64-v8a, permitted_path=/data:/mnt/expand:/data/user/0/com.google.android.gms
+09-06 18:50:31.492 21312 21312 W ContextImpl: Failed to ensure /dev/null/Android/data/com.wstxda.viper4android/files/Preset: java.lang.SecurityException: Invalid mkdirs path: /dev/null/Android/data/com.wstxda.viper4android/files/Preset is not a known app path.
+09-06 18:50:31.498 21312 21312 I MSYNC3-VariableRefreshRate: Variable refreshrate is disabled
+09-06 18:50:31.501 21312 21312 D TranClassInfo: instance successfully. com.transsion.hubcore.flingmanager.TranFlingManagerImpl@ad4c679 from com.transsion.hubcore.flingmanager.ITranFlingManager
+09-06 18:50:31.501 21312 21312 D TranClassInfo: instance successfully. com.transsion.hubcore.view.TranChoreographerImpl@ba78fbe from com.transsion.hubcore.view.ITranChoreographer
+09-06 18:50:31.501 21312 21333 W a.viper4android: ClassLoaderContext classpath element checksum mismatch. expected=4125941778, found=2031801722 (DLC[];PCL[base.apk*4125941778]{PCL[/system/framework/org.apache.http.legacy.jar*2290010995]#PCL[/system/framework/com.android.media.remotedisplay.jar*3886290638]#PCL[/system/framework/com.android.location.provider.jar*3868789109]#PCL[/system/framework/org.apache.http.legacy.jar*2290010995]} | DLC[];PCL[/data/app/~~Tw2x3KzchwZGDFTHlM0MLg==/com.wstxda.viper4android-OY5mknOg_MPLIxBEwdVu5A==/base.apk*2031801722])
+09-06 18:50:31.501 21312 21312 D TranClassInfo: instance successfully. com.transsion.hubcore.appturbo.Implement.TranAppturboComponentImpl@f18481f from com.transsion.hubcore.appturbo.ITranAppturboComponent
+09-06 18:50:31.501 21312 21312 D TranAppturboPolicyImpl: TranAppturboPolicyImpl new
+09-06 18:50:31.501 21312 21312 D TranClassInfo: instance successfully. com.transsion.hubcore.appturbo.TranAppturboPolicyImpl@a4a576c from com.transsion.hubcore.appturbo.ITranAppturboPolicy
+09-06 18:50:31.519 21312 21343 I TRuntime.CctTransportBackend: Making request to: https://crashlyticsreports-pa.googleapis.com/v1/firelog/legacy/batchlog
+09-06 18:50:31.578 21312 21357 V FA      : sdkVersion bundled with app, dynamiteVersion: 74029, 158
+09-06 18:50:31.581 21312 21357 V FA      : App measurement collection enabled
+09-06 18:50:31.581 21312 21357 E a.viper4android: No package ID 6a found for ID 0x6a0b000f.
+09-06 18:50:31.581 21312 21357 V FA      : App measurement enabled for app package, google app id: com.wstxda.viper4android, 1:869578750918:android:127684a8a8317f3bf750c7
+09-06 18:50:31.582 21312 21357 I FA      : App measurement initialized, version: 136000
+09-06 18:50:31.582 21312 21357 I FA      : To enable debug logging run: adb shell setprop log.tag.FA VERBOSE
+09-06 18:50:31.582 21312 21357 I FA      : To enable faster debug mode event logging run:
+09-06 18:50:31.582 21312 21357 I FA      :   adb shell setprop debug.firebase.analytics.app com.wstxda.viper4android
+09-06 18:50:31.583 21312 21357 D FA      : Debug-level message logging enabled
+09-06 18:50:31.584 21312 21357 D FA      : TCF client enabled.
+09-06 18:50:31.584 21312 21357 D FA      : Register tcfPrefChangeListener.
+09-06 18:50:31.584 21312 21357 V FA      : Default prefs file: com.wstxda.viper4android_preferences
+09-06 18:50:31.584 21312 21357 D FA      : Handle tcf update.
+09-06 18:50:31.586 21312 21357 V FA      : Tcf preferences read
+09-06 18:50:31.592 21312 21357 D FA      : Resetting session stitching token to not null
+09-06 18:50:31.599 21312 21357 V FA      : Connecting to remote service
+09-06 18:50:31.617 21312 21357 V FA      : Connection attempt already in progress
+09-06 18:50:31.619 21312 21357 V FA      : Connection attempt already in progress
+09-06 18:50:31.619 21312 21357 D FA      : Connected to remote service
+09-06 18:50:31.620 21312 21357 V FA      : Processing queued up service tasks: 3
+09-06 18:50:33.466 21312 21343 I TRuntime.CctTransportBackend: Status Code: 200
+09-06 18:50:36.634 21312 21357 V FA      : Inactivity, disconnecting from the service
+09-06 18:50:36.876 21312 21369 D ProfileInstaller: Skipping profile installation for com.wstxda.viper4android
+09-06 18:50:47.486 21312 21488 D libMEOW : meow new tls: 0xb40000773ed4c080
+09-06 18:50:47.486 21312 21488 D libMEOW : meow reload base cfg path: na
+09-06 18:50:47.486 21312 21488 D libMEOW : meow reload overlay cfg path: na
+09-06 18:50:47.489 21312 21488 I libMEOW_gift: open /data/performance/gift/arc.ini
+09-06 18:50:47.490 21312 21488 E QT      : [QT]file does not exist
+09-06 18:50:47.491 21312 21488 D libMEOW : applied 1 plugins for [com.wstxda.viper4android]:
+09-06 18:50:47.491 21312 21488 D libMEOW :   plugin 1: [libMEOW_gift.so]: 0xb4000076fecdb820
+09-06 18:50:47.491 21312 21488 D libMEOW : rebuild call chain: 0xb40000773ed8c0c0
+09-06 18:50:47.491 21312 21488 D libMEOW : meow delete tls: 0xb40000773ed4c080
+09-06 18:50:47.499 21312 21312 D AppCompatDelegate: Checking for metadata for AppLocalesMetadataHolderService : Service not found
+09-06 18:50:47.506 21312 21312 D TranClassInfo: instance successfully. com.transsion.hubcore.app.TranActivityImpl@3ad18c6 from com.transsion.hubcore.app.ITranActivity
+09-06 18:50:47.506 21312 21312 D TranActivityAppturboImpl: attach
+09-06 18:50:47.509 21312 21312 D TranClassInfo: instance successfully. com.transsion.hubcore.appturbo.TranAppturboServiceImpl@d641087 from com.transsion.hubcore.appturbo.ITranAppturboService
+09-06 18:50:47.509 21312 21312 D TranAppturboServiceImpl: attach
+09-06 18:50:47.509 21312 21312 D AppTurboPolicyImpl-TranBaseWrapper: TranBaseWrapper new, VERSION: KS-2.0.01KSMOOTH_V20_SUPPORT: false
+09-06 18:50:47.531 21312 21312 V MediaRouter: Selecting route: RouteInfo{ name=Phone, description=null, status=null, category=RouteCategory{ name=System types=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO  groupable=false }, supportedTypes=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO , presentationDisplay=null }
+09-06 18:50:47.532 21312 21312 I MediaRouter: Skip setBluetoothA2dpOn(): types=8388615, isPlaybackActive()=false, BT route=null
+09-06 18:50:47.533 21312 21312 I GlobalMediaRouter: Found default route: MediaRouter.RouteInfo{ uniqueId=DEFAULT_ROUTE, name=Phone, description=null, iconUri=null, enabled=true, connectionState=0, canDisconnect=false, playbackType=0, playbackStream=3, deviceType=0, volumeHandling=1, volume=4, volumeMax=15, presentationDisplayId=-1, extras=null, settingsIntent=null, providerPackageName=android }
+09-06 18:50:47.533 21312 21312 I GlobalMediaRouter: Unselecting the current route because it is no longer selectable: null
+09-06 18:50:47.541 21312 21333 V FA      : onActivityCreated
+09-06 18:50:47.559 21312 21312 D TranClassInfo: instance successfully. com.transsion.hubcore.view.TranViewImpl@ed70211 from com.transsion.hubcore.view.ITranView
+09-06 18:50:47.565 21312 21312 D os.SingleLice: instance successfully. com.transsion.dragdrop.v1.DragDropLice@e533f76 from com.transsion.dragdrop.DragDropLiceFactory
+09-06 18:50:47.565 21312 21312 D os.SingleLiceFactory: instance successfully. com.transsion.dragdrop.v1.DragDropLice@e533f76 from android.view.IViewLice
+09-06 18:50:47.565 21312 21312 D os.LiceInfo: instance successfully. com.transsion.view.ViewLice@20c2977 from android.view.IViewLice
+09-06 18:50:47.579 21312 21312 D TranClassInfo: instance successfully. com.transsion.hubcore.internal.TranInternalViewImpl@29a5a05 from com.transsion.hubcore.internal.ITranInternalView
+09-06 18:50:47.580 21312 21312 D os.SingleLiceFactory: using com.android.internal.IInternalViewLice$DefaultImpl@8040a5a instead of com.transsion.freeform.FreeformLiceFactory  from com.android.internal.IInternalViewLice
+09-06 18:50:47.581 21312 21312 D os.SingleLice: instance successfully. com.transsion.whitenavigation.v1.WhiteNavigationLice@7c048b from com.transsion.whitenavigation.WhiteNavigationLiceFactory
+09-06 18:50:47.581 21312 21312 D os.SingleLiceFactory: instance successfully. com.transsion.whitenavigation.v1.WhiteNavigationLice@7c048b from com.android.internal.IInternalViewLice
+09-06 18:50:47.582 21312 21312 D os.SingleLice: instance successfully. com.transsion.screenshothelper.v1.ScreenShotHelperImplLice@cb27968 from com.transsion.screenshothelper.ScreenShotHelperImplLiceFactory
+09-06 18:50:47.582 21312 21312 D os.SingleLiceFactory: instance successfully. com.transsion.screenshothelper.v1.ScreenShotHelperImplLice@cb27968 from com.android.internal.IInternalViewLice
+09-06 18:50:47.582 21312 21312 D os.LiceInfo: instance successfully. com.transsion.internal.InternalViewLice@76b9181 from com.android.internal.IInternalViewLice
+09-06 18:50:47.582 21312 21312 D os.SingleLiceFactory: using com.android.internal.IInternalViewLice$DefaultImpl@8040a5a instead of com.transsion.activityembedding.ActivityEmbeddingLiceFactory  from com.android.internal.IInternalViewLice
+09-06 18:50:47.582 21312 21312 D os.SingleLiceFactory: using com.android.internal.IInternalViewLice$DefaultImpl@8040a5a instead of com.transsion.activityembedding.ActivityEmbeddingLiceFactory  from com.android.internal.IInternalViewLice
+09-06 18:50:47.582 21312 21312 D os.SingleLiceFactory: using com.android.internal.IInternalViewLice$DefaultImpl@8040a5a instead of com.transsion.activityembedding.ActivityEmbeddingLiceFactory  from com.android.internal.IInternalViewLice
+09-06 18:50:47.582 21312 21312 D os.SingleLiceFactory: using com.android.internal.IInternalViewLice$DefaultImpl@8040a5a instead of com.transsion.activityembedding.ActivityEmbeddingLiceFactory  from com.android.internal.IInternalViewLice
+09-06 18:50:47.582 21312 21312 D os.SingleLiceFactory: using com.android.internal.IInternalViewLice$DefaultImpl@8040a5a instead of com.transsion.activityembedding.ActivityEmbeddingLiceFactory  from com.android.internal.IInternalViewLice
+09-06 18:50:47.582 21312 21312 D os.SingleLiceFactory: using com.android.internal.IInternalViewLice$DefaultImpl@8040a5a instead of com.transsion.activityembedding.ActivityEmbeddingLiceFactory  from com.android.internal.IInternalViewLice
+09-06 18:50:47.585 21312 21312 D os.SingleLiceFactory: using com.android.internal.IInternalViewLice$DefaultImpl@8040a5a instead of com.transsion.activityembedding.ActivityEmbeddingLiceFactory  from com.android.internal.IInternalViewLice
+09-06 18:50:47.585 21312 21312 D os.SingleLiceFactory: using com.android.internal.IInternalViewLice$DefaultImpl@8040a5a instead of com.transsion.activityembedding.ActivityEmbeddingLiceFactory  from com.android.internal.IInternalViewLice
+09-06 18:50:47.591 21312 21312 D CompatibilityChangeReporter: Compat change id reported: 210923482; UID 10246; state: ENABLED
+09-06 18:50:47.594 21312 21312 I AudioEffect: queryNumberEffects(): *numEffects = 17, ret = 0
+09-06 18:50:47.607 21312 21328 D ActivityThreadLice: received OSMessage 110001
+09-06 18:50:47.608 21312 21328 D ActivityThreadLice: send OSMessage 110001 to [-1]
+09-06 18:50:47.608 21312 21312 D ActivityThread: ++ activityComponent:com.wstxda.viper4android/com.wstxda.viper4android.MainActivity counts:1 ALEAK_CLEAR_SUPPORT:true
+09-06 18:50:47.610 21312 21328 D OSServiceManager: update local os service os.activity from null to android.os.BinderProxy@8935e3
+09-06 18:50:47.612 21312 21312 D os.SingleLiceFactory: using com.android.internal.IInternalViewLice$DefaultImpl@8040a5a instead of com.transsion.activityembedding.ActivityEmbeddingLiceFactory  from com.android.internal.IInternalViewLice
+09-06 18:50:47.612 21312 21312 D os.SingleLiceFactory: using com.android.internal.IInternalViewLice$DefaultImpl@8040a5a instead of com.transsion.activityembedding.ActivityEmbeddingLiceFactory  from com.android.internal.IInternalViewLice
+09-06 18:50:47.612 21312 21312 D TranActivityAppturboImpl: onResumeHork
+09-06 18:50:47.612 21312 21312 D TranAppturboServiceImpl: onResumeHork
+09-06 18:50:47.615 21312 21357 V FA      : Activity resumed, time: 442880
+09-06 18:50:47.618 21312 21357 I FA      : Tag Manager is not found and thus will not be used
+09-06 18:50:47.634 21312 21357 V FA      : Connecting to remote service
+09-06 18:50:47.642 21312 21312 W libc    : Access denied finding property "vendor.scroll.fpsgo.release"
+09-06 18:50:47.644 21312 21312 D TranClassInfo: instance successfully. com.transsion.hubcore.widget.TranOverScrollerImpl@14beb04 from com.transsion.hubcore.widget.ITranOverScroller
+09-06 18:50:47.645 21312 21357 V FA      : Connection attempt already in progress
+09-06 18:50:47.654 21312 21312 I SurfaceFactory: [static] sSurfaceFactory = com.mediatek.view.impl.SurfaceFactoryImpl@32fe807
+09-06 18:50:47.656 21312 21351 D nativeloader: Load libpowerhalwrap_jni.so using system ns (caller=/system/framework/mediatek-framework.jar): ok
+09-06 18:50:47.656 21312 21351 I PowerHalWrapper: PowerHalWrapper.getInstance
+09-06 18:50:47.665 21312 21312 D VRI[MainActivity]: hardware acceleration = true, forceHwAccelerated = false
+09-06 18:50:47.666 21312 21312 D os.SingleLiceFactory: using com.android.internal.IInternalViewLice$DefaultImpl@8040a5a instead of com.transsion.activityembedding.ActivityEmbeddingLiceFactory  from com.android.internal.IInternalViewLice
+09-06 18:50:47.666 21312 21312 D os.SingleLiceFactory: using com.android.internal.IInternalViewLice$DefaultImpl@8040a5a instead of com.transsion.activityembedding.ActivityEmbeddingLiceFactory  from com.android.internal.IInternalViewLice
+09-06 18:50:47.666 21312 21312 I config_debug: updateDecorCaptionStatus: {0.85001 510mcc1mnc [en_US,in_ID] ldltr sw360dp w360dp h726dp 320dpi nrml long port night finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 720, 1612) mAppBounds=Rect(0, 80 - 720, 1532) mMaxBounds=Rect(0, 0 - 720, 1612) mDisplayRotation=ROTATION_0 mWindowingMode=fullscreen mDisplayWindowingMode=fullscreen mMultiWindowMode=normal mMultiWindowId=0 mWindowResiable=6 mInLargeScreen=-1 mActivityType=standard mAlwaysOnTop=undefined mRotation=ROTATION_0 mDisplayUniqueId=0} s.1 fontWeightAdjustment=0} fromMultiWindow: false
+09-06 18:50:47.672 21312 21312 D libMEOW : meow new tls: 0xb40000773ed7c0b0
+09-06 18:50:47.672 21312 21312 D libMEOW : applied 1 plugins for [com.wstxda.viper4android]:
+09-06 18:50:47.672 21312 21312 D libMEOW :   plugin 1: [libMEOW_gift.so]: 0xb4000076fecdb820
+09-06 18:50:47.673 21312 21312 D libMEOW : rebuild call chain: 0xb40000773ed5c090
+09-06 18:50:47.673 21312 21312 D InputTransport: Create ARC handle: 0xb40000755ed3de70
+09-06 18:50:47.674 21312 21312 V MediaRouter: Selecting route: RouteInfo{ name=Phone, description=null, status=null, category=RouteCategory{ name=System types=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO  groupable=false }, supportedTypes=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO , presentationDisplay=null }
+09-06 18:50:47.709 21312 21312 D CompatibilityChangeReporter: Compat change id reported: 160794467; UID 10246; state: ENABLED
+09-06 18:50:47.716 21312 21312 D ViPERService: onStartCommand() called with: intent = Intent { cmp=com.wstxda.viper4android/.service.ViPERService }, flags = 0, startId = 1
+09-06 18:50:47.720 21312 21312 D ViPERService: handleFirstRun() called
+09-06 18:50:47.733 21312 21312 D os.SingleLiceFactory: using com.android.internal.IInternalViewLice$DefaultImpl@8040a5a instead of com.transsion.activityembedding.ActivityEmbeddingLiceFactory  from com.android.internal.IInternalViewLice
+09-06 18:50:47.733 21312 21312 D os.SingleLiceFactory: using com.android.internal.IInternalViewLice$DefaultImpl@8040a5a instead of com.transsion.activityembedding.ActivityEmbeddingLiceFactory  from com.android.internal.IInternalViewLice
+09-06 18:50:47.750 21312 21312 D BufferQueueConsumer: [](id:534000000000,api:0,p:-1,c:21312) connect: controlledByApp=false
+09-06 18:50:47.752 21312 21312 E FBI     : Can't load library: dlopen failed: library "libmagtsync.so" not found
+09-06 18:50:47.752 21312 21312 I config_debug: updateDecorCaptionStatus: {0.85001 510mcc1mnc [en_US,in_ID] ldltr sw360dp w360dp h726dp 320dpi nrml long port night finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 720, 1612) mAppBounds=Rect(0, 80 - 720, 1532) mMaxBounds=Rect(0, 0 - 720, 1612) mDisplayRotation=ROTATION_0 mWindowingMode=fullscreen mDisplayWindowingMode=fullscreen mMultiWindowMode=normal mMultiWindowId=0 mWindowResiable=6 mInLargeScreen=-1 mActivityType=standard mAlwaysOnTop=undefined mRotation=ROTATION_0 mDisplayUniqueId=0} s.1 fontWeightAdjustment=0} fromMultiWindow: true
+09-06 18:50:47.753 21312 21487 D libMEOW : meow new tls: 0xb40000773edbc0f0
+09-06 18:50:47.753 21312 21487 D libMEOW : applied 1 plugins for [com.wstxda.viper4android]:
+09-06 18:50:47.753 21312 21487 D libMEOW :   plugin 1: [libMEOW_gift.so]: 0xb4000076fecdb820
+09-06 18:50:47.753 21312 21487 D libMEOW : rebuild call chain: 0xb40000773ed9c0d0
+09-06 18:50:47.761 21312 21487 E OpenGLRenderer: Device claims wide gamut support, cannot find matching config, error = EGL_SUCCESS
+09-06 18:50:47.761 21312 21487 W OpenGLRenderer: Failed to initialize 101010-2 format, error = EGL_SUCCESS
+09-06 18:50:47.765 21312 21487 D skia    : GrGLMakeAssembledInterface verStr OpenGL ES 3.2 v1.r32p1-01eac0.2a893c04ca0026c2e6802dbe7d7af5c5
+09-06 18:50:47.765 21312 21487 D skia    : GrGLMakeAssembledGLESInterface verStr OpenGL ES 3.2 v1.r32p1-01eac0.2a893c04ca0026c2e6802dbe7d7af5c5
+09-06 18:50:47.765 21312 21487 D skia    : extensions init verString=OpenGL ES 3.2 v1.r32p1-01eac0.2a893c04ca0026c2e6802dbe7d7af5c5
+09-06 18:50:47.771 21312 21487 W OpenGLRenderer: ShaderCache::tranMaxTotalSize is 4194304
+09-06 18:50:47.827 21312 21487 D hw-ProcessState: Binder ioctl to enable oneway spam detection failed: Invalid argument
+09-06 18:50:47.832 21312 21487 I mali    : [DebugProp] GPU Debug-Mechanism Disable !
+09-06 18:50:47.865 21312 21487 D BLASTBufferQueue: [VRI[MainActivity]#0](f:0,a:1) acquireNextBufferLocked size=720x1612 mFrameNumber=1 applyTransaction=true mTimestamp=443130651948(auto) mPendingTransactions.size=0 graphicBufferId=91534343012357 transform=0
+09-06 18:50:47.867 21312 21487 W Parcel  : Expecting binder but got null!
+09-06 18:50:47.888 21312 21312 D ViPERService: handleFirstRun: legacy mode enabled, adding legacy session
+09-06 18:50:47.888 21312 21357 D FA      : Connected to remote service
+09-06 18:50:47.888 21312 21312 I AudioEffect: set 0xb40000761ed0ed80 uuid: 0x7feaa6b2b0 timeLow ec7178ec
+09-06 18:50:47.889 21312 21357 V FA      : Processing queued up service tasks: 2
+09-06 18:50:47.897 21312 21312 I AudioEffect: set() 0xb40000761ed0ed80 OK effect: ViPER4Android id: 51 status 0 enabled 0 pid 21312
+09-06 18:50:47.899 21312 21495 W ViPERManager: key_master not implemented
+09-06 18:50:47.899 21312 21495 I AudioEffect: setParameter(): 0xb40000761ed0ed80, param: 65626, param2: -1
+09-06 18:50:47.901 21312 21495 I AudioEffect: setParameter(): 0xb40000761ed0ed80, param: 65625, param2: -1
+09-06 18:50:47.902 21312 21495 I AudioEffect: setParameter(): 0xb40000761ed0ed80, param: 65624, param2: -1
+09-06 18:50:47.904 21312 21495 I AudioEffect: setParameter(): 0xb40000761ed0ed80, param: 65623, param2: -1
+09-06 18:50:47.907 21312 21312 D ViPERService: handleStartCommand() called with: intent = Intent { cmp=com.wstxda.viper4android/.service.ViPERService }, startId = 1
+09-06 18:50:47.911 21312 21495 I AudioEffect: setParameter(): 0xb40000761ed0ed80, param: 65622, param2: -1
+09-06 18:50:47.914 21312 21495 I AudioEffect: setParameter(): 0xb40000761ed0ed80, param: 65621, param2: -1
+09-06 18:50:47.919 21312 21495 I AudioEffect: setParameter(): 0xb40000761ed0ed80, param: 65620, param2: -1
+09-06 18:50:47.925 21312 21495 I AudioEffect: setParameter(): 0xb40000761ed0ed80, param: 65619, param2: -1
+09-06 18:50:47.927 21312 21495 I AudioEffect: setParameter(): 0xb40000761ed0ed80, param: 65618, param2: -1
+09-06 18:50:47.928 21312 21495 I AudioEffect: setParameter(): 0xb40000761ed0ed80, param: 65617, param2: -1
+09-06 18:50:47.931 21312 21495 I AudioEffect: setParameter(): 0xb40000761ed0ed80, param: 65616, param2: -1
+09-06 18:50:47.933 21312 21495 I AudioEffect: setParameter(): 0xb40000761ed0ed80, param: 65615, param2: -1
+09-06 18:50:47.934 21312 21495 I AudioEffect: setParameter(): 0xb40000761ed0ed80, param: 65614, param2: -1
+09-06 18:50:47.936 21312 21495 I AudioEffect: setParameter(): 0xb40000761ed0ed80, param: 65613, param2: -1
+09-06 18:50:47.938 21312 21495 I AudioEffect: setParameter(): 0xb40000761ed0ed80, param: 65612, param2: -1
+09-06 18:50:47.946 21312 21495 I AudioEffect: setParameter(): 0xb40000761ed0ed80, param: 65611, param2: -1
+09-06 18:50:47.968 21312 21495 I AudioEffect: setParameter(): 0xb40000761ed0ed80, param: 65610, param2: -1
+09-06 18:50:47.970 21312 21495 I AudioEffect: setParameter(): 0xb40000761ed0ed80, param: 65603, param2: -1
+09-06 18:50:47.974 21312 21495 I AudioEffect: setParameter(): 0xb40000761ed0ed80, param: 65588, param2: -1
+09-06 18:50:47.975 21312 21495 I AudioEffect: setParameter(): 0xb40000761ed0ed80, param: 65587, param2: -1
+09-06 18:50:47.975 21312 21495 I AudioEffect: setParameter(): 0xb40000761ed0ed80, param: 65586, param2: -1
+09-06 18:50:47.979 21312 21495 I AudioEffect: setParameter(): 0xb40000761ed0ed80, param: 65585, param2: -1
+09-06 18:50:47.980 21312 21495 I AudioEffect: setParameter(): 0xb40000761ed0ed80, param: 65584, param2: -1
+09-06 18:50:47.985 21312 21495 I AudioEffect: setParameter(): 0xb40000761ed0ed80, param: 65583, param2: -1
+09-06 18:50:47.987 21312 21495 I AudioEffect: setParameter(): 0xb40000761ed0ed80, param: 65582, param2: -1
+09-06 18:50:47.988 21312 21495 I AudioEffect: setParameter(): 0xb40000761ed0ed80, param: 65581, param2: -1
+09-06 18:50:47.999 21312 21495 I AudioEffect: setParameter(): 0xb40000761ed0ed80, param: 65580, param2: -1
+09-06 18:50:48.001 21312 21495 I AudioEffect: setParameter(): 0xb40000761ed0ed80, param: 65579, param2: -1
+09-06 18:50:48.004 21312 21495 I AudioEffect: setParameter(): 0xb40000761ed0ed80, param: 65578, param2: -1
+09-06 18:50:48.007 21312 21495 I AudioEffect: setParameter(): 0xb40000761ed0ed80, param: 65577, param2: -1
+09-06 18:50:48.024 21312 21495 I AudioEffect: setParameter(): 0xb40000761ed0ed80, param: 65576, param2: -1
+09-06 18:50:48.027 21312 21495 I AudioEffect: setParameter(): 0xb40000761ed0ed80, param: 65575, param2: -1
+09-06 18:50:48.031 21312 21495 I AudioEffect: setParameter(): 0xb40000761ed0ed80, param: 65574, param2: -1
+09-06 18:50:48.037 21312 21495 I AudioEffect: setParameter(): 0xb40000761ed0ed80, param: 65573, param2: -1
+09-06 18:50:48.044 21312 21495 I AudioEffect: setParameter(): 0xb40000761ed0ed80, param: 65570, param2: -1
+09-06 18:50:48.054 21312 21495 I AudioEffect: setParameter(): 0xb40000761ed0ed80, param: 65571, param2: -1
+09-06 18:50:48.056 21312 21495 I AudioEffect: setParameter(): 0xb40000761ed0ed80, param: 65572, param2: -1
+09-06 18:50:48.060 21312 21495 I AudioEffect: setParameter(): 0xb40000761ed0ed80, param: 65569, param2: -1
+09-06 18:50:48.064 21312 21495 I AudioEffect: setParameter(): 0xb40000761ed0ed80, param: 65568, param2: -1
+09-06 18:50:48.066 21312 21495 I AudioEffect: setParameter(): 0xb40000761ed0ed80, param: 65567, param2: -1
+09-06 18:50:48.067 21312 21495 I AudioEffect: setParameter(): 0xb40000761ed0ed80, param: 65566, param2: -1
+09-06 18:50:48.069 21312 21495 I AudioEffect: setParameter(): 0xb40000761ed0ed80, param: 65565, param2: -1
+09-06 18:50:48.077 21312 21495 I AudioEffect: setParameter(): 0xb40000761ed0ed80, param: 65564, param2: -1
+09-06 18:50:48.080 21312 21495 I AudioEffect: setParameter(): 0xb40000761ed0ed80, param: 65563, param2: -1
+09-06 18:50:48.081 21312 21495 I AudioEffect: setParameter(): 0xb40000761ed0ed80, param: 65562, param2: -1
+09-06 18:50:48.084 21312 21495 I AudioEffect: setParameter(): 0xb40000761ed0ed80, param: 65561, param2: -1
+09-06 18:50:48.088 21312 21495 I AudioEffect: setParameter(): 0xb40000761ed0ed80, param: 65560, param2: -1
+09-06 18:50:48.094 21312 21495 I AudioEffect: setParameter(): 0xb40000761ed0ed80, param: 65559, param2: -1
+09-06 18:50:48.099 21312 21495 I AudioEffect: setParameter(): 0xb40000761ed0ed80, param: 65558, param2: -1
+09-06 18:50:48.101 21312 21495 I AudioEffect: setParameter(): 0xb40000761ed0ed80, param: 65557, param2: -1
+09-06 18:50:48.103 21312 21495 I AudioEffect: setParameter(): 0xb40000761ed0ed80, param: 65555, param2: -1
+09-06 18:50:48.105 21312 21495 I AudioEffect: setParameter(): 0xb40000761ed0ed80, param: 65556, param2: -1
+09-06 18:50:48.106 21312 21495 I AudioEffect: setParameter(): 0xb40000761ed0ed80, param: 65553, param2: -1
+09-06 18:50:48.109 21312 21495 I AudioEffect: setParameter(): 0xb40000761ed0ed80, param: 65552, param2: -1
+09-06 18:50:48.111 21312 21495 I AudioEffect: setParameter(): 0xb40000761ed0ed80, param: 65552, param2: -1
+09-06 18:50:48.112 21312 21495 I AudioEffect: setParameter(): 0xb40000761ed0ed80, param: 65552, param2: -1
+09-06 18:50:48.113 21312 21495 I AudioEffect: setParameter(): 0xb40000761ed0ed80, param: 65552, param2: -1
+09-06 18:50:48.117 21312 21495 I AudioEffect: setParameter(): 0xb40000761ed0ed80, param: 65552, param2: -1
+09-06 18:50:48.117 21312 21495 I AudioEffect: setParameter(): 0xb40000761ed0ed80, param: 65552, param2: -1
+09-06 18:50:48.118 21312 21495 I AudioEffect: setParameter(): 0xb40000761ed0ed80, param: 65552, param2: -1
+09-06 18:50:48.119 21312 21495 I AudioEffect: setParameter(): 0xb40000761ed0ed80, param: 65552, param2: -1
+09-06 18:50:48.120 21312 21495 I AudioEffect: setParameter(): 0xb40000761ed0ed80, param: 65552, param2: -1
+09-06 18:50:48.122 21312 21495 I AudioEffect: setParameter(): 0xb40000761ed0ed80, param: 65552, param2: -1
+09-06 18:50:48.124 21312 21495 I AudioEffect: setParameter(): 0xb40000761ed0ed80, param: 65551, param2: -1
+09-06 18:50:48.129 21312 21495 I AudioEffect: setParameter(): 0xb40000761ed0ed80, param: 65549, param2: -1
+09-06 18:50:48.130 21312 21495 I AudioEffect: setParameter(): 0xb40000761ed0ed80, param: 65550, param2: -1
+09-06 18:50:48.131 21312 21495 I AudioEffect: setParameter(): 0xb40000761ed0ed80, param: 65548, param2: -1
+09-06 18:50:48.134 21312 21495 I AudioEffect: setParameter(): 0xb40000761ed0ed80, param: 65547, param2: -1
+09-06 18:50:48.135 21312 21495 I AudioEffect: setParameter(): 0xb40000761ed0ed80, param: 65547, param2: -1
+09-06 18:50:48.136 21312 21495 I AudioEffect: setParameter(): 0xb40000761ed0ed80, param: 65546, param2: -1
+09-06 18:50:48.140 21312 21495 I AudioEffect: setParameter(): 0xb40000761ed0ed80, param: 65545, param2: -1
+09-06 18:50:48.141 21312 21495 I AudioEffect: setParameter(): 0xb40000761ed0ed80, param: 65544, param2: -1
+09-06 18:50:48.143 21312 21495 I AudioEffect: setParameter(): 0xb40000761ed0ed80, param: 65543, param2: -1
+09-06 18:50:48.144 21312 21495 I AudioEffect: getParameter: param: 5, param2: -1
+09-06 18:50:48.155 21312 21495 D nativeloader: Load /data/app/~~Tw2x3KzchwZGDFTHlM0MLg==/com.wstxda.viper4android-OY5mknOg_MPLIxBEwdVu5A==/base.apk!/lib/arm64-v8a/libV4AJniUtils.so using class loader ns clns-4 (caller=/data/app/~~Tw2x3KzchwZGDFTHlM0MLg==/com.wstxda.viper4android-OY5mknOg_MPLIxBEwdVu5A==/base.apk): ok
+09-06 18:50:48.155 21312 21495 E a.viper4android: No implementation found for int[] com.wstxda.viper4android.utils.JniUtils$Companion.getImpulseResponseInfo(byte[]) (tried Java_com_wstxda_viper4android_utils_JniUtils_00024Companion_getImpulseResponseInfo and Java_com_wstxda_viper4android_utils_JniUtils_00024Companion_getImpulseResponseInfo___3B) - is the library loaded, e.g. System.loadLibrary?
+09-06 18:50:48.161 21312 21495 W ContextImpl: Failed to ensure /dev/null/Android/data/com.wstxda.viper4android/files: java.lang.SecurityException: Invalid mkdirs path: /dev/null/Android/data/com.wstxda.viper4android/files is not a known app path.
+09-06 18:50:48.165 21312 21495 E a.viper4android: No implementation found for byte[] com.wstxda.viper4android.utils.JniUtils$Companion.readImpulseResponse(byte[]) (tried Java_com_wstxda_viper4android_utils_JniUtils_00024Companion_readImpulseResponse and Java_com_wstxda_viper4android_utils_JniUtils_00024Companion_readImpulseResponse___3B) - is the library loaded, e.g. System.loadLibrary?
+09-06 18:50:48.170 21312 21495 W ContextImpl: Failed to ensure /dev/null/Android/data/com.wstxda.viper4android/files: java.lang.SecurityException: Invalid mkdirs path: /dev/null/Android/data/com.wstxda.viper4android/files is not a known app path.
+09-06 18:50:48.174 21312 21495 I AudioEffect: setParameter(): 0xb40000761ed0ed80, param: 65540, param2: -1
+09-06 18:50:48.176 21312 21495 I AudioEffect: setParameter(): 0xb40000761ed0ed80, param: 65541, param2: -1
+09-06 18:50:48.179 21312 21495 I AudioEffect: setParameter(): 0xb40000761ed0ed80, param: 65541, param2: -1
+09-06 18:50:48.180 21312 21495 I AudioEffect: setParameter(): 0xb40000761ed0ed80, param: 65541, param2: -1
+09-06 18:50:48.181 21312 21495 I AudioEffect: setParameter(): 0xb40000761ed0ed80, param: 65541, param2: -1
+09-06 18:50:48.182 21312 21495 I AudioEffect: setParameter(): 0xb40000761ed0ed80, param: 65541, param2: -1
+09-06 18:50:48.183 21312 21495 I AudioEffect: setParameter(): 0xb40000761ed0ed80, param: 65541, param2: -1
+09-06 18:50:48.184 21312 21495 I AudioEffect: setParameter(): 0xb40000761ed0ed80, param: 65541, param2: -1
+09-06 18:50:48.185 21312 21495 I AudioEffect: setParameter(): 0xb40000761ed0ed80, param: 65541, param2: -1
+09-06 18:50:48.187 21312 21495 I AudioEffect: setParameter(): 0xb40000761ed0ed80, param: 65541, param2: -1
+09-06 18:50:48.188 21312 21495 I AudioEffect: setParameter(): 0xb40000761ed0ed80, param: 65541, param2: -1
+09-06 18:50:48.188 21312 21495 I AudioEffect: setParameter(): 0xb40000761ed0ed80, param: 65541, param2: -1
+09-06 18:50:48.190 21312 21495 I AudioEffect: setParameter(): 0xb40000761ed0ed80, param: 65541, param2: -1
+09-06 18:50:48.191 21312 21495 I AudioEffect: setParameter(): 0xb40000761ed0ed80, param: 65541, param2: -1
+09-06 18:50:48.191 21312 21495 I AudioEffect: setParameter(): 0xb40000761ed0ed80, param: 65541, param2: -1
+09-06 18:50:48.192 21312 21495 I AudioEffect: setParameter(): 0xb40000761ed0ed80, param: 65541, param2: -1
+09-06 18:50:48.193 21312 21495 I AudioEffect: setParameter(): 0xb40000761ed0ed80, param: 65541, param2: -1
+09-06 18:50:48.194 21312 21495 I AudioEffect: setParameter(): 0xb40000761ed0ed80, param: 65541, param2: -1
+09-06 18:50:48.196 21312 21495 I AudioEffect: setParameter(): 0xb40000761ed0ed80, param: 65542, param2: -1
+09-06 18:50:48.197 21312 21495 I AudioEffect: setParameter(): 0xb40000761ed0ed80, param: 65538, param2: -1
+09-06 18:50:48.199 21312 21495 I AudioEffect: setParameter(): 0xb40000761ed0ed80, param: 65547, param2: -1
+09-06 18:50:48.200 21312 21495 I AudioEffect: enable 0xb40000761ed0ed80
+09-06 18:50:48.202 21312 21495 W ViPERManager: 32775 not implemented
+09-06 18:50:48.202 21312 21495 I AudioEffect: setParameter(): 0xb40000761ed0ed80, param: 36867, param2: -1
+09-06 18:50:48.217 21312 21495 I AudioEffect: setParameter(): 0xb40000761ed0ed80, param: 65583, param2: -1
+09-06 18:50:48.239 21312 21324 W System  : A resource failed to call AbstractCursor.close.
+09-06 18:50:48.239 21312 21324 W System  : A resource failed to call CursorWrapperInner.close.
+09-06 18:50:48.240 21312 21324 W System  : A resource failed to call close.
+09-06 18:50:48.241 21312 21324 W System  : A resource failed to call close.
+09-06 18:50:52.910 21312 21357 V FA      : Inactivity, disconnecting from the service
+09-06 18:51:04.624 21312 21312 V MediaRouter: Audio routes updated: AudioRoutesInfo{ type=SPEAKER, bluetoothName=WONDERHOI }, a2dp=true
+09-06 18:51:04.624 21312 21312 V MediaRouter: Selecting route: RouteInfo{ name=WONDERHOI, description=Bluetooth audio, status=null, category=RouteCategory{ name=System types=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO  groupable=false }, supportedTypes=ROUTE_TYPE_LIVE_AUDIO , presentationDisplay=null }
+09-06 18:51:04.625 21312 21312 I MediaRouter: Skip setBluetoothA2dpOn(): types=1, isPlaybackActive()=false, BT route=RouteInfo{ name=WONDERHOI, description=Bluetooth audio, status=null, category=RouteCategory{ name=System types=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO  groupable=false }, supportedTypes=ROUTE_TYPE_LIVE_AUDIO , presentationDisplay=null }
+09-06 18:51:04.626 21312 21312 I GlobalMediaRouter: Found bluetooth route: MediaRouter.RouteInfo{ uniqueId=ROUTE_07e0de87, name=WONDERHOI, description=Bluetooth audio, iconUri=null, enabled=true, connectionState=0, canDisconnect=false, playbackType=0, playbackStream=3, deviceType=3, volumeHandling=1, volume=4, volumeMax=15, presentationDisplayId=-1, extras=null, settingsIntent=null, providerPackageName=android }
+09-06 18:51:04.627 21312 21312 V MediaRouter: Selecting route: RouteInfo{ name=WONDERHOI, description=Bluetooth audio, status=null, category=RouteCategory{ name=System types=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO  groupable=false }, supportedTypes=ROUTE_TYPE_LIVE_AUDIO , presentationDisplay=null }
+09-06 18:51:04.639 21312 21493 W ViPERManager: key_master not implemented
+09-06 18:51:04.639 21312 21493 I AudioEffect: setParameter(): 0xb40000761ed0ed80, param: 65626, param2: -1
+09-06 18:51:04.640 21312 21493 I AudioEffect: setParameter(): 0xb40000761ed0ed80, param: 65625, param2: -1
+09-06 18:51:04.642 21312 21493 I AudioEffect: setParameter(): 0xb40000761ed0ed80, param: 65624, param2: -1
+09-06 18:51:04.644 21312 21493 I AudioEffect: setParameter(): 0xb40000761ed0ed80, param: 65623, param2: -1
+09-06 18:51:04.645 21312 21493 I AudioEffect: setParameter(): 0xb40000761ed0ed80, param: 65622, param2: -1
+09-06 18:51:04.645 21312 21493 I AudioEffect: setParameter(): 0xb40000761ed0ed80, param: 65621, param2: -1
+09-06 18:51:04.647 21312 21493 I AudioEffect: setParameter(): 0xb40000761ed0ed80, param: 65620, param2: -1
+09-06 18:51:04.648 21312 21493 I AudioEffect: setParameter(): 0xb40000761ed0ed80, param: 65619, param2: -1
+09-06 18:51:04.649 21312 21493 I AudioEffect: setParameter(): 0xb40000761ed0ed80, param: 65618, param2: -1
+09-06 18:51:04.650 21312 21493 I AudioEffect: setParameter(): 0xb40000761ed0ed80, param: 65617, param2: -1
+09-06 18:51:04.652 21312 21493 I AudioEffect: setParameter(): 0xb40000761ed0ed80, param: 65616, param2: -1
+09-06 18:51:04.655 21312 21312 D os.SingleLiceFactory: using com.android.internal.IInternalViewLice$DefaultImpl@8040a5a instead of com.transsion.activityembedding.ActivityEmbeddingLiceFactory  from com.android.internal.IInternalViewLice
+09-06 18:51:04.655 21312 21312 D os.SingleLiceFactory: using com.android.internal.IInternalViewLice$DefaultImpl@8040a5a instead of com.transsion.activityembedding.ActivityEmbeddingLiceFactory  from com.android.internal.IInternalViewLice
+09-06 18:51:04.655 21312 21493 I AudioEffect: setParameter(): 0xb40000761ed0ed80, param: 65615, param2: -1
+09-06 18:51:04.657 21312 21493 I AudioEffect: setParameter(): 0xb40000761ed0ed80, param: 65614, param2: -1
+09-06 18:51:04.658 21312 21493 I AudioEffect: setParameter(): 0xb40000761ed0ed80, param: 65613, param2: -1
+09-06 18:51:04.659 21312 21493 I AudioEffect: setParameter(): 0xb40000761ed0ed80, param: 65612, param2: -1
+09-06 18:51:04.660 21312 21493 I AudioEffect: setParameter(): 0xb40000761ed0ed80, param: 65611, param2: -1
+09-06 18:51:04.662 21312 21493 I AudioEffect: setParameter(): 0xb40000761ed0ed80, param: 65610, param2: -1
+09-06 18:51:04.663 21312 21493 I AudioEffect: setParameter(): 0xb40000761ed0ed80, param: 65603, param2: -1
+09-06 18:51:04.665 21312 21493 I AudioEffect: setParameter(): 0xb40000761ed0ed80, param: 65588, param2: -1
+09-06 18:51:04.666 21312 21493 I AudioEffect: setParameter(): 0xb40000761ed0ed80, param: 65587, param2: -1
+09-06 18:51:04.667 21312 21493 I AudioEffect: setParameter(): 0xb40000761ed0ed80, param: 65586, param2: -1
+09-06 18:51:04.670 21312 21493 I AudioEffect: setParameter(): 0xb40000761ed0ed80, param: 65585, param2: -1
+09-06 18:51:04.671 21312 21493 I AudioEffect: setParameter(): 0xb40000761ed0ed80, param: 65584, param2: -1
+09-06 18:51:04.672 21312 21493 I AudioEffect: setParameter(): 0xb40000761ed0ed80, param: 65583, param2: -1
+09-06 18:51:04.673 21312 21493 I AudioEffect: setParameter(): 0xb40000761ed0ed80, param: 65582, param2: -1
+09-06 18:51:04.675 21312 21493 I AudioEffect: setParameter(): 0xb40000761ed0ed80, param: 65581, param2: -1
+09-06 18:51:04.677 21312 21493 I AudioEffect: setParameter(): 0xb40000761ed0ed80, param: 65580, param2: -1
+09-06 18:51:04.678 21312 21493 I AudioEffect: setParameter(): 0xb40000761ed0ed80, param: 65579, param2: -1
+09-06 18:51:04.680 21312 21493 I AudioEffect: setParameter(): 0xb40000761ed0ed80, param: 65578, param2: -1
+09-06 18:51:04.681 21312 21493 I AudioEffect: setParameter(): 0xb40000761ed0ed80, param: 65577, param2: -1
+09-06 18:51:04.683 21312 21493 I AudioEffect: setParameter(): 0xb40000761ed0ed80, param: 65576, param2: -1
+09-06 18:51:04.684 21312 21493 I AudioEffect: setParameter(): 0xb40000761ed0ed80, param: 65575, param2: -1
+09-06 18:51:04.686 21312 21493 I AudioEffect: setParameter(): 0xb40000761ed0ed80, param: 65574, param2: -1
+09-06 18:51:04.687 21312 21493 I AudioEffect: setParameter(): 0xb40000761ed0ed80, param: 65573, param2: -1
+09-06 18:51:04.688 21312 21493 I AudioEffect: setParameter(): 0xb40000761ed0ed80, param: 65570, param2: -1
+09-06 18:51:04.690 21312 21493 I AudioEffect: setParameter(): 0xb40000761ed0ed80, param: 65571, param2: -1
+09-06 18:51:04.692 21312 21493 I AudioEffect: setParameter(): 0xb40000761ed0ed80, param: 65572, param2: -1
+09-06 18:51:04.693 21312 21493 I AudioEffect: setParameter(): 0xb40000761ed0ed80, param: 65569, param2: -1
+09-06 18:51:04.695 21312 21493 I AudioEffect: setParameter(): 0xb40000761ed0ed80, param: 65568, param2: -1
+09-06 18:51:04.696 21312 21493 I AudioEffect: setParameter(): 0xb40000761ed0ed80, param: 65567, param2: -1
+09-06 18:51:04.698 21312 21493 I AudioEffect: setParameter(): 0xb40000761ed0ed80, param: 65566, param2: -1
+09-06 18:51:04.702 21312 21493 I AudioEffect: setParameter(): 0xb40000761ed0ed80, param: 65565, param2: -1
+09-06 18:51:04.704 21312 21493 I AudioEffect: setParameter(): 0xb40000761ed0ed80, param: 65564, param2: -1
+09-06 18:51:04.705 21312 21493 I AudioEffect: setParameter(): 0xb40000761ed0ed80, param: 65563, param2: -1
+09-06 18:51:04.707 21312 21493 I AudioEffect: setParameter(): 0xb40000761ed0ed80, param: 65562, param2: -1
+09-06 18:51:04.709 21312 21312 D BufferQueueConsumer: [](id:534000000001,api:0,p:-1,c:21312) connect: controlledByApp=true
+09-06 18:51:04.710 21312 21493 I AudioEffect: setParameter(): 0xb40000761ed0ed80, param: 65561, param2: -1
+09-06 18:51:04.713 21312 21493 I AudioEffect: setParameter(): 0xb40000761ed0ed80, param: 65560, param2: -1
+09-06 18:51:04.714 21312 21493 I AudioEffect: setParameter(): 0xb40000761ed0ed80, param: 65559, param2: -1
+09-06 18:51:04.716 21312 21487 E FrameEvents: updateAcquireFence: Did not find frame.
+09-06 18:51:04.717 21312 21493 I AudioEffect: setParameter(): 0xb40000761ed0ed80, param: 65558, param2: -1
+09-06 18:51:04.718 21312 21312 D BufferQueueConsumer: [ImageReader-720x144f1u2816m2-21312-0](id:534000000001,api:0,p:-1,c:21312) disconnect
+09-06 18:51:04.719 21312 21493 I AudioEffect: setParameter(): 0xb40000761ed0ed80, param: 65557, param2: -1
+09-06 18:51:04.721 21312 21312 D BufferQueueConsumer: [](id:534000000002,api:0,p:-1,c:21312) connect: controlledByApp=true
+09-06 18:51:04.721 21312 21493 I AudioEffect: setParameter(): 0xb40000761ed0ed80, param: 65555, param2: -1
+09-06 18:51:04.723 21312 21493 I AudioEffect: setParameter(): 0xb40000761ed0ed80, param: 65556, param2: -1
+09-06 18:51:04.724 21312 21493 I AudioEffect: setParameter(): 0xb40000761ed0ed80, param: 65553, param2: -1
+09-06 18:51:04.727 21312 21487 E FrameEvents: updateAcquireFence: Did not find frame.
+09-06 18:51:04.728 21312 21312 D BufferQueueConsumer: [ImageReader-720x144f1u2816m2-21312-1](id:534000000002,api:0,p:-1,c:21312) disconnect
+09-06 18:51:04.729 21312 21493 I AudioEffect: setParameter(): 0xb40000761ed0ed80, param: 65552, param2: -1
+09-06 18:51:04.730 21312 21493 I AudioEffect: setParameter(): 0xb40000761ed0ed80, param: 65552, param2: -1
+09-06 18:51:04.730 21312 21312 D BufferQueueConsumer: [](id:534000000003,api:0,p:-1,c:21312) connect: controlledByApp=true
+09-06 18:51:04.731 21312 21493 I AudioEffect: setParameter(): 0xb40000761ed0ed80, param: 65552, param2: -1
+09-06 18:51:04.732 21312 21493 I AudioEffect: setParameter(): 0xb40000761ed0ed80, param: 65552, param2: -1
+09-06 18:51:04.733 21312 21493 I AudioEffect: setParameter(): 0xb40000761ed0ed80, param: 65552, param2: -1
+09-06 18:51:04.734 21312 21493 I AudioEffect: setParameter(): 0xb40000761ed0ed80, param: 65552, param2: -1
+09-06 18:51:04.735 21312 21487 E FrameEvents: updateAcquireFence: Did not find frame.
+09-06 18:51:04.736 21312 21312 D BufferQueueConsumer: [ImageReader-720x144f1u2816m2-21312-2](id:534000000003,api:0,p:-1,c:21312) disconnect
+09-06 18:51:04.737 21312 21493 I AudioEffect: setParameter(): 0xb40000761ed0ed80, param: 65552, param2: -1
+09-06 18:51:04.737 21312 21312 D BufferQueueConsumer: [](id:534000000004,api:0,p:-1,c:21312) connect: controlledByApp=true
+09-06 18:51:04.738 21312 21493 I AudioEffect: setParameter(): 0xb40000761ed0ed80, param: 65552, param2: -1
+09-06 18:51:04.738 21312 21493 I AudioEffect: setParameter(): 0xb40000761ed0ed80, param: 65552, param2: -1
+09-06 18:51:04.739 21312 21493 I AudioEffect: setParameter(): 0xb40000761ed0ed80, param: 65552, param2: -1
+09-06 18:51:04.739 21312 21493 I AudioEffect: setParameter(): 0xb40000761ed0ed80, param: 65551, param2: -1
+09-06 18:51:04.740 21312 21493 I AudioEffect: setParameter(): 0xb40000761ed0ed80, param: 65549, param2: -1
+09-06 18:51:04.741 21312 21487 E FrameEvents: updateAcquireFence: Did not find frame.
+09-06 18:51:04.742 21312 21493 I AudioEffect: setParameter(): 0xb40000761ed0ed80, param: 65550, param2: -1
+09-06 18:51:04.743 21312 21312 D BufferQueueConsumer: [ImageReader-720x144f1u2816m2-21312-3](id:534000000004,api:0,p:-1,c:21312) disconnect
+09-06 18:51:04.743 21312 21493 I AudioEffect: setParameter(): 0xb40000761ed0ed80, param: 65548, param2: -1
+09-06 18:51:04.744 21312 21312 D BufferQueueConsumer: [](id:534000000005,api:0,p:-1,c:21312) connect: controlledByApp=true
+09-06 18:51:04.746 21312 21493 I AudioEffect: setParameter(): 0xb40000761ed0ed80, param: 65547, param2: -1
+09-06 18:51:04.748 21312 21493 I AudioEffect: setParameter(): 0xb40000761ed0ed80, param: 65547, param2: -1
+09-06 18:51:04.749 21312 21487 E FrameEvents: updateAcquireFence: Did not find frame.
+09-06 18:51:04.749 21312 21493 I AudioEffect: setParameter(): 0xb40000761ed0ed80, param: 65546, param2: -1
+09-06 18:51:04.750 21312 21493 I AudioEffect: setParameter(): 0xb40000761ed0ed80, param: 65545, param2: -1
+09-06 18:51:04.750 21312 21312 D BufferQueueConsumer: [ImageReader-720x144f1u2816m2-21312-4](id:534000000005,api:0,p:-1,c:21312) disconnect
+09-06 18:51:04.751 21312 21493 I AudioEffect: setParameter(): 0xb40000761ed0ed80, param: 65544, param2: -1
+09-06 18:51:04.752 21312 21493 I AudioEffect: setParameter(): 0xb40000761ed0ed80, param: 65543, param2: -1
+09-06 18:51:04.752 21312 21312 D BufferQueueConsumer: [](id:534000000006,api:0,p:-1,c:21312) connect: controlledByApp=true
+09-06 18:51:04.752 21312 21493 I AudioEffect: getParameter: param: 5, param2: -1
+09-06 18:51:04.754 21312 21493 E a.viper4android: No implementation found for int[] com.wstxda.viper4android.utils.JniUtils$Companion.getImpulseResponseInfo(byte[]) (tried Java_com_wstxda_viper4android_utils_JniUtils_00024Companion_getImpulseResponseInfo and Java_com_wstxda_viper4android_utils_JniUtils_00024Companion_getImpulseResponseInfo___3B) - is the library loaded, e.g. System.loadLibrary?
+09-06 18:51:04.756 21312 21487 E FrameEvents: updateAcquireFence: Did not find frame.
+09-06 18:51:04.758 21312 21312 D BufferQueueConsumer: [ImageReader-720x144f1u2816m2-21312-5](id:534000000006,api:0,p:-1,c:21312) disconnect
+09-06 18:51:04.759 21312 21493 W ContextImpl: Failed to ensure /dev/null/Android/data/com.wstxda.viper4android/files: java.lang.SecurityException: Invalid mkdirs path: /dev/null/Android/data/com.wstxda.viper4android/files is not a known app path.
+09-06 18:51:04.760 21312 21312 D BufferQueueConsumer: [](id:534000000007,api:0,p:-1,c:21312) connect: controlledByApp=true
+09-06 18:51:04.760 21312 21493 E a.viper4android: No implementation found for byte[] com.wstxda.viper4android.utils.JniUtils$Companion.readImpulseResponse(byte[]) (tried Java_com_wstxda_viper4android_utils_JniUtils_00024Companion_readImpulseResponse and Java_com_wstxda_viper4android_utils_JniUtils_00024Companion_readImpulseResponse___3B) - is the library loaded, e.g. System.loadLibrary?
+09-06 18:51:04.763 21312 21493 W ContextImpl: Failed to ensure /dev/null/Android/data/com.wstxda.viper4android/files: java.lang.SecurityException: Invalid mkdirs path: /dev/null/Android/data/com.wstxda.viper4android/files is not a known app path.
+09-06 18:51:04.764 21312 21487 E FrameEvents: updateAcquireFence: Did not find frame.
+09-06 18:51:04.766 21312 21312 D BufferQueueConsumer: [ImageReader-720x144f1u2816m2-21312-6](id:534000000007,api:0,p:-1,c:21312) disconnect
+09-06 18:51:04.768 21312 21312 D BufferQueueConsumer: [](id:534000000008,api:0,p:-1,c:21312) connect: controlledByApp=true
+09-06 18:51:04.775 21312 21487 E FrameEvents: updateAcquireFence: Did not find frame.
+09-06 18:51:04.778 21312 21312 D BufferQueueConsumer: [ImageReader-652x144f1u2816m2-21312-7](id:534000000008,api:0,p:-1,c:21312) disconnect
+09-06 18:51:04.780 21312 21312 D BufferQueueConsumer: [](id:534000000009,api:0,p:-1,c:21312) connect: controlledByApp=true
+09-06 18:51:04.786 21312 21487 E FrameEvents: updateAcquireFence: Did not find frame.
+09-06 18:51:04.787 21312 21312 D BufferQueueConsumer: [ImageReader-720x144f1u2816m2-21312-8](id:534000000009,api:0,p:-1,c:21312) disconnect
+09-06 18:51:04.820 21312 21343 D CompatibilityChangeReporter: Compat change id reported: 194532703; UID 10246; state: ENABLED
+09-06 18:51:04.833 21312 21357 V FA      : Connecting to remote service
+09-06 18:51:04.836 21312 21810 I TRuntime.CctTransportBackend: Making request to: https://crashlyticsreports-pa.googleapis.com/v1/firelog/legacy/batchlog
+09-06 18:51:04.844 21312 21357 V FA      : Recording user engagement, ms: 17230
+09-06 18:51:04.847 21312 21357 D FA      : Connected to remote service
+09-06 18:51:04.848 21312 21357 V FA      : Processing queued up service tasks: 1
+09-06 18:51:06.765 21312 21810 I TRuntime.CctTransportBackend: Status Code: 200
+--------- beginning of crash
+09-06 18:51:06.780 21312 21493 E AndroidRuntime: FATAL EXCEPTION: DefaultDispatcher-worker-1
+09-06 18:51:06.780 21312 21493 E AndroidRuntime: Process: com.wstxda.viper4android, PID: 21312
+09-06 18:51:06.780 21312 21493 E AndroidRuntime: java.lang.IndexOutOfBoundsException
+09-06 18:51:06.780 21312 21493 E AndroidRuntime:        at java.io.BufferedInputStream.read(BufferedInputStream.java:331)
+09-06 18:51:06.780 21312 21493 E AndroidRuntime:        at x1.a.b(Unknown Source:268)
+09-06 18:51:06.780 21312 21493 E AndroidRuntime:        at com.wstxda.viper4android.utils.JniUtils$Companion.b(Unknown Source:63)
+09-06 18:51:06.780 21312 21493 E AndroidRuntime:        at o1.t.g(Unknown Source:1710)
+09-06 18:51:06.780 21312 21493 E AndroidRuntime:        at o1.t.i(Unknown Source:19)
+09-06 18:51:06.780 21312 21493 E AndroidRuntime:        at o1.s.m(Unknown Source:105)
+09-06 18:51:06.780 21312 21493 E AndroidRuntime:        at o5.a.i(Unknown Source:8)
+09-06 18:51:06.780 21312 21493 E AndroidRuntime:        at d6.c0.run(Unknown Source:96)
+09-06 18:51:06.780 21312 21493 E AndroidRuntime:        at k.j.run(Unknown Source:16)
+09-06 18:51:06.780 21312 21493 E AndroidRuntime:        at k6.i.run(Unknown Source:2)
+09-06 18:51:06.780 21312 21493 E AndroidRuntime:        at k6.a.run(Unknown Source:91)
+09-06 18:51:06.780 21312 21493 E AndroidRuntime:        Suppressed: i6.g: [h1{Cancelling}@4311326, Dispatchers.IO]
+09-06 18:51:06.780 21312 21493 I ExceptionHandle: at java.io.BufferedInputStream.read(BufferedInputStream.java:331)
+09-06 18:51:06.781 21312 21493 I ExceptionHandle: at x1.a.b(Unknown Source:268)
+09-06 18:51:06.781 21312 21493 I ExceptionHandle: at com.wstxda.viper4android.utils.JniUtils$Companion.b(Unknown Source:63)
+09-06 18:51:06.781 21312 21493 I ExceptionHandle: at o1.t.g(Unknown Source:1710)
+09-06 18:51:06.781 21312 21493 I ExceptionHandle: at o1.t.i(Unknown Source:19)
+09-06 18:51:06.781 21312 21493 I ExceptionHandle: at o1.s.m(Unknown Source:105)
+09-06 18:51:06.781 21312 21493 I ExceptionHandle: at o5.a.i(Unknown Source:8)
+09-06 18:51:06.781 21312 21493 I ExceptionHandle: at d6.c0.run(Unknown Source:96)
+09-06 18:51:06.781 21312 21493 I ExceptionHandle: at k.j.run(Unknown Source:16)
+09-06 18:51:06.781 21312 21493 I ExceptionHandle: at k6.i.run(Unknown Source:2)
+09-06 18:51:06.781 21312 21493 I ExceptionHandle: at k6.a.run(Unknown Source:91)
+09-06 18:51:06.844 21312 21357 V FA      : Recording user engagement, ms: 2025
+09-06 18:51:06.860 21312 21357 V FA      : Activity paused, time: 462110
+09-06 18:51:06.972 21312 21324 W System  : A resource failed to call close.
+09-06 18:51:06.972 21312 21324 W System  : A resource failed to call close.
+09-06 18:51:07.003 21312 21312 D BLASTBufferQueue: [VRI[MainActivity]#0](f:0,a:2) destructor()
+09-06 18:51:07.003 21312 21312 D BufferQueueConsumer: [VRI[MainActivity]#0(BLAST Consumer)0](id:534000000000,api:0,p:-1,c:21312) disconnect
+09-06 18:51:07.011 21312 21312 D ActivityThread: mToDestroying.remove:ActivityRecord{ac86399 token=android.os.BinderProxy@780e5a2 {com.wstxda.viper4android/com.wstxda.viper4android.MainActivity}}
+09-06 18:51:07.016 21312 21312 D View    : [Warning] assignParent to null: this = DecorView@e8eeff8[MainActivity]
+09-06 18:51:07.038 21312 21312 D InputTransport: Destroy ARC handle: 0xb40000755ed3de70
+09-06 18:51:08.863 21312 21357 D FA      : Application going to the background
+09-06 18:51:08.864 21312 21357 I FA      : Application backgrounded at: timestamp_millis: 1757159466860
